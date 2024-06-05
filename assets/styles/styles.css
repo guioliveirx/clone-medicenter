@@ -3,26 +3,142 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     box-sizing: border-box;
 }
 
+/* MENU */
 nav{
     display: flex;
     justify-content: center;
     height: 120px;
-    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.253);
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.164);
 }
 
 .container{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 1000px;
+    justify-content: space-between; 
+    width: 1300px;
 }
 
+.menu,
 .logo{
     display: flex;
     align-items: center;
 }
+
+.menu ul,
+.menu li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menu a{
+    display: block;
+    text-decoration: none;
+    color: #727272;
+    padding: 15px;
+    /* Transition property ; duration ; timing- function */
+    transition: background-color .4s ease-in-out , color .3s;
+}
+
+.menu .active a,
+.menu a:hover{
+    background-color: #39aae1;
+    color: #fff;
+}
+
+/* SECTION HERO */
+section#banner{
+    display: flex;
+    justify-content: center;
+    background-image: url(../images/img01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+}
+
+.description h1, h2{
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
+    font-size: 4.2rem;
+    max-width: 350px;
+}
+
+.description  h2{
+    margin-top: 30px;
+    font-size: 1.3rem;
+}
+
+.cards{
+    display: flex;
+}
+
+.card1,
+.card2,
+.card3{
+    flex: 1;
+    color: white;
+    padding: 30px;
+}
+
+.card1{
+    background-color: #39aae1;
+}
+.card2{
+    background-color: #0079c7;
+}
+.card3{
+    background-color: #2b4c99;
+}
+
+.cards h3{
+    font-size: 1.5rem;
+}
+
+.cards p,
+.cards a{
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.cards a{
+    text-decoration: none;
+    color: white;
+    padding: 7px;
+    border: 1px solid white;
+    transition: background-color .4s ease-in-out , color .3s;
+}
+
+.cards a:hover{
+    background-color: white;
+    color: black;
+}
+
+.hours{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 7px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.582);
+}
+
 
 
