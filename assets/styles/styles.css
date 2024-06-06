@@ -7,6 +7,11 @@
     box-sizing: border-box;
 }
 
+.geral{
+    display: flex;
+    justify-content: center;
+}
+
 /* MENU */
 nav{
     display: flex;
@@ -55,8 +60,6 @@ nav{
 
 /* SECTION HERO */
 section#banner{
-    display: flex;
-    justify-content: center;
     background-image: url(../images/img01.jpg);
     background-position: center;
     background-size: cover;
@@ -140,5 +143,30 @@ section#banner{
     border-bottom: 1px solid rgba(255, 255, 255, 0.582);
 }
 
+/* Segunda Sessão */
+
+#second-section article{
+    flex: 2;
+}
+
+#second-section aside{
+    flex: 1;
+}
+
+.widget-title{
+    margin: 30px 0px 20px 0px;
+}
+
+.widget-title-text{
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.widget-title-bar{
+    background-color: #36a9e1;
+    width: 50px;
+    height: 2px;
+}
 
 
