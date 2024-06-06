@@ -169,4 +169,51 @@ section#banner{
     height: 2px;
 }
 
+/* Segunda Sessão Article */
 
+.widget-body{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.widget-body article{
+    flex: 1;
+    margin-right: 20px;
+    min-width: 300px;
+}
+
+article .news-data{
+    display: flex;
+    column-gap: 3px;
+}
+
+article .news-posted-at{
+    background-color: #2b4c99;
+    color: white;
+    padding: 10px;
+}
+
+article .news-comments{
+    background-color: #39aae1;
+}
+
+article span{
+    font-size: 0.9rem;
+}
+
+article .news-thumbnail{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+article .news-thumbnail img, 
+h3, 
+p{
+    margin-top: 20px;
+}
+
+article .news-thumbnail p{
+    color: #5c5c5c;
+    font-size: 0.9rem;
+}
