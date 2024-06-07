@@ -7,15 +7,18 @@
     box-sizing: border-box;
 }
 
-.geral{
+.flex-j-center{
     display: flex;
     justify-content: center;
 }
 
+.flex-a-center{
+    display: flex;
+    align-items: center;
+}
+
 /* MENU */
 nav{
-    display: flex;
-    justify-content: center;
     height: 120px;
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.164);
 }
@@ -26,10 +29,8 @@ nav{
     width: 1300px;
 }
 
-.menu,
-.logo{
+.menu ul{
     display: flex;
-    align-items: center;
 }
 
 .menu ul,
@@ -37,10 +38,6 @@ nav{
     list-style: none;
     margin: 0;
     padding: 0;
-}
-
-.menu ul{
-    display: flex;
 }
 
 .menu a{
@@ -72,9 +69,7 @@ section#banner{
 }
 
 .description{
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     flex: 1;
 }
 
@@ -98,8 +93,8 @@ section#banner{
 .card1,
 .card2,
 .card3{
-    flex: 1;
     color: white;
+    flex: 1;
     padding: 30px;
 }
 
@@ -238,8 +233,6 @@ aside .widget-body-two{
 .phone,
 .number,
 .email{
-    display: flex;
-    align-items: center;
     border-top: 1px solid rgba(0, 0, 0, 0.322);
     height: 65px;
     padding: 10px;
