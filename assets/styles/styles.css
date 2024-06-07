@@ -7,6 +7,17 @@
     box-sizing: border-box;
 }
 
+:root{
+    --cor01: #39aae1;
+    --cor02: #0079c7;
+    --cor03: #2b4c99;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+}
+
 /* Códigos Reciclados */
 .flex-j-center{
     display: flex;
@@ -52,7 +63,7 @@ nav{
 
 .menu .active a,
 .menu a:hover{
-    background-color: #39aae1;
+    background-color:var(--cor01);
     color: #fff;
 }
 
@@ -100,16 +111,16 @@ section#banner{
 }
 
 .card1{
-    background-color: #39aae1;
+    background-color:var(--cor01);
 }
 .card2{
-    background-color: #0079c7;
+    background-color: var(--cor02);
 }
 .card3{
-    background-color: #2b4c99;
+    background-color: var(--cor03);
 }
 
-.cards h3{
+h3{
     font-size: 1.5rem;
 }
 
@@ -160,7 +171,7 @@ section#banner{
 }
 
 .widget-title-bar{
-    background-color: #36a9e1;
+    background-color: var(--cor01);
     width: 50px;
     height: 2px;
 }
@@ -183,13 +194,13 @@ article .news-data{
 }
 
 article .news-posted-at{
-    background-color: #2b4c99;
+    background-color: var(--cor03);
     color: white;
     padding: 10px;
 }
 
 article .news-comments{
-    background-color: #39aae1;
+    background-color: var(--cor01);
 }
 
 article span{
@@ -220,7 +231,7 @@ aside .widget-body{
 }
 
 aside .quadrado{
-    background-color: #39aae1;
+    background-color: var(--cor01);
     flex: 1 1 180px;
     height: 180px;
 }
@@ -258,4 +269,75 @@ aside .widget-body-two{
 
 .widget-body-two span{
     margin-left: 10px;
+}
+
+/* FOOTER */
+footer{
+    background-color: #1e1e1e;
+    margin-top: 20px;
+}
+
+.footer-menu{
+    display: flex;
+}
+
+.fm-1,
+.fm-2,
+.fm-3{
+    flex: 1;
+}
+
+.footer-area{
+    display: flex;
+}
+
+.footer-area-item{
+    flex: 1;
+    color: white;
+}
+
+.footer-area-item p{
+    color: #727272;
+    line-height: 20px;
+    font-size: 0.9rem;
+}
+
+address{
+    margin-top: 30px;
+    
+}
+
+address .contact{
+    display: flex;
+    justify-content: space-between;
+}
+
+address span{
+    color: #727272;
+    flex: 1;
+    margin-top: 5px;
+}
+
+.social{
+    display: flex;
+    margin-top: 30px;
+    column-gap: 5px;
+}
+.icon1,
+.icon2,
+.icon3,
+.icon4{
+    background-color: #72727267;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-copy{
+    border-top: 2px solid #2c2c2c;
+    margin-top: 30px;
+    padding: 15px 0px;
+}
+
+.footer-copy span{
+    font-size: 0.9rem;
 }
