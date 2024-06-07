@@ -78,7 +78,8 @@ section#banner{
     flex: 1;
 }
 
-.description h1, h2{
+.description h1, 
+.description h2{
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
     font-size: 4.2rem;
@@ -206,8 +207,8 @@ article .news-thumbnail{
 }
 
 article .news-thumbnail img, 
-h3, 
-p{
+article .news-thumbnail h3, 
+article .news-thumbnail p{
     margin-top: 30px;
 }
 
@@ -254,7 +255,8 @@ aside .widget-body-two{
     height: 30px;
 }
 
-.widget-body-two p, span{
+.widget-body-two p, 
+.widget-body-two span{
     color: #5c5c5c;
     font-size: 0.9rem;
     margin-top: 0;
