@@ -13,12 +13,12 @@
     --cor03: #2b4c99;
 }
 
-body{
+/* Códigos Reciclados */
+.flex{
     display: flex;
     flex-direction: column;
 }
 
-/* Códigos Reciclados */
 .flex-j-center{
     display: flex;
     justify-content: center;
@@ -39,6 +39,7 @@ nav{
     display: flex;
     justify-content: space-between; 
     width: 1300px;
+    padding: 10px;
 }
 
 .menu ul{
@@ -74,6 +75,7 @@ section#banner{
     background-size: cover;
     background-repeat: no-repeat;
     height: 800px;
+    width: 100%;
 }
 
 .column{
@@ -90,7 +92,8 @@ section#banner{
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
     font-size: 4.2rem;
-    max-width: 350px;
+    max-width: 450px;
+    min-width: 300px;
 }
 
 .description  h2{
@@ -128,6 +131,7 @@ h3{
 .cards a{
     display: inline-block;
     margin-top: 20px;
+    line-height: 20px;
 }
 
 .cards a{
@@ -289,6 +293,7 @@ footer{
 
 .footer-area{
     display: flex;
+    column-gap: 10px;
 }
 
 .footer-area-item{
@@ -340,4 +345,47 @@ address span{
 
 .footer-copy span{
     font-size: 0.9rem;
+}
+
+
+/* medias */
+
+@media screen and (max-width:980px){
+    .menu ul{
+        display: none;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:980px){
+    .description h1{
+        font-size: 4.0em;
+    }
+    .description h2{
+        font-size: 1.1em;
+    }
+
+    h3{
+        font-size: 1.2rem;
+    }
+
+    .card1,
+    .card2,
+    .card3{
+        padding: 20px;
+    }
+
+    .card1 p,
+    .card2 p,
+    .card3 p{
+        font-size:.9rem;
+    }
+}
+
+@media screen and (min-width:980px) and (max-width:1024px){
+    div .quadrado{
+        flex: 1 1 120px;
+    }
+    .container{
+        width: 100vw;
+    }
 }
