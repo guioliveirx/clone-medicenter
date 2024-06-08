@@ -350,7 +350,7 @@ address span{
 
 /* medias */
 
-@media screen and (max-width:980px){
+@media (max-width:980px){
     .menu ul{
         display: none;
     }
@@ -359,7 +359,7 @@ address span{
     }
 }
 
-@media screen and (min-width:200px) and (max-width:690px){
+@media (min-width:200px) and (max-width:690px){
     .description{
         flex: none;
         height: 700px;
@@ -393,7 +393,7 @@ address span{
 
 }
 
-@media screen and (min-width:690px) and (max-width:980px){
+@media (min-width:690px) and (max-width:980px){
     h3{
         font-size: 1.2rem;
     }
