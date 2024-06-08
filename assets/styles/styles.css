@@ -91,14 +91,14 @@ section#banner{
 .description h2{
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
-    font-size: 4.2rem;
+    font-size: calc(4.2rem - 0.2vw);
     max-width: 450px;
     min-width: 300px;
 }
 
 .description  h2{
     margin-top: 30px;
-    font-size: 1.3rem;
+    font-size: calc(1.3rem - 0.2vw);
 }
 
 .cards{
@@ -189,7 +189,7 @@ h3{
 .widget-body article{
     flex: 1;
     margin-right: 20px;
-    min-width: 300px;
+    min-width: 330px;
 }
 
 article .news-data{
@@ -354,16 +354,46 @@ address span{
     .menu ul{
         display: none;
     }
+    .container{
+        width: 100vw;
+    }
 }
 
-@media screen and (min-width:768px) and (max-width:980px){
-    .description h1{
-        font-size: 4.0em;
+@media screen and (min-width:350px) and (max-width:690px){
+    .description{
+        flex: none;
+        height: 700px;
     }
-    .description h2{
-        font-size: 1.1em;
+    
+    .cards {
+        flex-direction: column;
+    }
+    
+    section#banner{
+        height: auto;
+        background: url(../images/img02.jpg) center no-repeat;
+        background-size: cover;
     }
 
+    .widget-body article{
+        margin: 0;
+    }
+
+    #second-section .container,
+    .footer-area,
+    .footer-menu{
+        flex-direction: column;
+    }
+
+    .fm-1 h3,
+    .fm-2 h3,
+    .fm-3 h3{
+        margin-bottom: 20px;
+    }
+
+}
+
+@media screen and (min-width:690px) and (max-width:980px){
     h3{
         font-size: 1.2rem;
     }
@@ -378,11 +408,5 @@ address span{
     .card2 p,
     .card3 p{
         font-size:.9rem;
-    }
-}
-
-@media screen and (min-width:980px) and (max-width:1024px){
-    .container{
-        width: 100vw;
     }
 }
