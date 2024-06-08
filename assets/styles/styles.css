@@ -375,8 +375,13 @@ address span{
         background-size: cover;
     }
 
+    .widget-body{
+        column-gap: 20px;
+    }
+
     .widget-body article{
         margin: 0;
+        min-width: 280px;
     }
 
     #second-section .container,
