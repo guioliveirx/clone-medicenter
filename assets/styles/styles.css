@@ -39,7 +39,7 @@ nav{
     display: flex;
     justify-content: space-between; 
     width: 1300px;
-    padding: 10px;
+    padding: 0px 5px ;
 }
 
 .menu ul{
@@ -236,8 +236,8 @@ aside .widget-body{
 
 aside .quadrado{
     background-color: var(--cor01);
-    flex: 1 1 180px;
-    height: 180px;
+    flex: 1 1 130px;
+    height: calc(180px - 0.5vw)
 }
 
 /* ASIDE MAKE AN APPOINTMENT */
@@ -382,9 +382,6 @@ address span{
 }
 
 @media screen and (min-width:980px) and (max-width:1024px){
-    div .quadrado{
-        flex: 1 1 120px;
-    }
     .container{
         width: 100vw;
     }
