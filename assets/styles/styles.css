@@ -359,7 +359,7 @@ address span{
     }
 }
 
-@media screen and (min-width:350px) and (max-width:690px){
+@media screen and (min-width:300px) and (max-width:690px){
     .description{
         flex: none;
         height: 700px;
