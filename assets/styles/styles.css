@@ -91,7 +91,7 @@ section#banner{
 .description h2{
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.308);
-    font-size: calc(2rem + 2vw);
+    font-size: calc(3rem + 0.2vw);
     max-width: 450px;
 }
 
@@ -356,13 +356,14 @@ address span{
     .container{
         width: 100vw;
     }
+
+    .description{
+        flex: none;
+        height: calc(400px + 10vw)
+    }
 }
 
 @media (min-width:200px) and (max-width:690px){
-    .description{
-        flex: none;
-        height: 700px;
-    }
     
     .cards {
         flex-direction: column;
