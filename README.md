@@ -2,7 +2,7 @@
     <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=3000&lines=Clone+Medicenter!;" />
 </h1>
 
- <div align="justify">Este é um site clone baseado em um template desenvolvido pela QuanticaLabs. Criei este clone exclusivamente para fins educacionais.<div>
+ <div align="justify">Este é um site clone baseado em um template desenvolvido pela <strong>QuanticaLabs</strong>. Criei este clone exclusivamente para fins educacionais.<div>
  
 ##
 
