@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/styles/styles.css">
+    <link rel="shortcut icon" href="assets/images/favicon-16x16.png" type="image/x-icon">
     <script type="text/javascript">
         window.onload = function(){
             document.querySelector(".menu-mobile").addEventListener("click", function(){
@@ -21,7 +22,12 @@
     <nav class="flex-j-center">
         <div class="container">
             <div class="flex-a-center">
-                <a href="#" class="flex-a-center"><img src="assets/images/logo.png" alt="Logo MediCenter"></a>
+                <a href="#" class="flex-a-center">
+                    <picture>
+                        <source media="(max-width: 980px)" srcset="assets/images/icon-logo.png">
+                        <img src="assets/images/logo.png" alt="Logo MediCenter">
+                    </picture>
+                </a>
             </div>
             <div class="menu flex-a-center">
                 <div class="menu-mobile">
