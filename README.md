@@ -7,5 +7,5 @@
 ##
 
 Você poderá acessar o site clicando logo abaixo:
-<div align="center"><br> <a href="https://guioliveirx.github.io/Clone-Medicenter" target="_blanck" rel="external"><img aling="center" height="400px" width="700px" src="https://github.com/guioliveirx/Clone-Medicenter/blob/main/assets/images/Clone-Medicenter.jpeg?raw=true" img>
+<div align="center"><br> <a href="https://guioliveirx.github.io/Clone-Medicenter" target="_blanck" rel="external"><img aling="center" src="https://github.com/guioliveirx/Clone-Medicenter/blob/main/assets/images/Clone-Medicenter.jpeg?raw=true" img>
 </a></div>   
