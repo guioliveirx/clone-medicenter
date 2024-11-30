@@ -4,7 +4,7 @@
     
 ## Introdução
 
-Site clone baseado em um template desenvolvido pela `QuanticaLabs`. Realização do projeto com intuito exclusivamente para **fins educativos**. 
+Site clone baseado em um template desenvolvido pela `QuanticaLabs`. A realização do projeto com intuito exclusivamente para **fins educativos**. 
 
 O website contou com o aprimoramento de técnicas de `responsividade` e `flex-box`.
 
