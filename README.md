@@ -10,10 +10,10 @@ O website contou com o aprimoramento de técnicas de `responsividade` e `flex-bo
 
 ## Webpage
 
-Você poderá [acessar o site](https://guioliveirx.github.io/Clone-Medicenter) clicando na imagem logo abaixo:
+Você poderá [acessar o site](https://guioliveirx.github.io/clone-medicenter/) clicando na imagem logo abaixo:
 
 <div align="center">
-    <br><a href="https://guioliveirx.github.io/Clone-Medicenter" target="_blanck" rel="external"><img aling="center" src="https://github.com/guioliveirx/Clone-Medicenter/blob/main/assets/images/Clone-Medicenter.jpeg?raw=true" img></a>
+    <br><a href="https://guioliveirx.github.io/clone-medicenter/" target="_blanck" rel="external"><img aling="center" src="https://github.com/guioliveirx/Clone-Medicenter/blob/main/assets/images/Clone-Medicenter.jpeg?raw=true" img></a>
 </div>   
 
 #
