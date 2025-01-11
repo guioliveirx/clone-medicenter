@@ -17,11 +17,11 @@ O website contou com o aprimoramento de técnicas de `responsividade` e `flex-bo
 
 </div>
 
-# Deploy
+## Deploy
 
 Para acessar o deploy: [Medicenter](https://guioliveirx.github.io/clone-medicenter/)
 
-# Autores e Agradecimentos
+## Autores e Agradecimentos
 
 - [guioliveirx](https://github.com/guioliveirx)
 
