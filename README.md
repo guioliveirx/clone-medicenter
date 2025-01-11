@@ -19,7 +19,7 @@ O website contou com o aprimoramento de técnicas de `responsividade` e `flex-bo
 
 # Deploy
 
-Para acessar o deploy: [Medicenter](https://guioliveirx.vercel.app/)
+Para acessar o deploy: [Medicenter](https://guioliveirx.github.io/clone-medicenter/)
 
 # Autores e Agradecimentos
 
